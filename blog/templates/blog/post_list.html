@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>mon super blog</title>
+    </head>
+    <body>
+        <header>
+            <h1><a href="">welcome to my blog</a></h1>
+        </header>
+        {% for post in posts %}
+        <article>
+            <time>{{ post.published_date }}</time>
+            <h2><a href="">{{ post.title }}</a></h2>
+            <p>{{ post.text }}</p>
+        </article>
+        {% endfor %}
+    </body>
+    
+</html>
+
