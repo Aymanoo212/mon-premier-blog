@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-*zs@osy5=@bpb&(bwcaubv1t6^6+qjb23zc$x6hp*y5@wt=%7g
 DEBUG = True
 
 STATIC_ROOT= BASE_DIR /'static'
-ALLOWED_HOSTS = ['127.0.0.1', 'pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'pythonanywhere.com','aymanoo212.pythonanywhere.com']
 
 # Application definition
 
